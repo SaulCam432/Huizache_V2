@@ -1,0 +1,1 @@
+Aplicacion de El Huizache, desarrollada en Android Studio con el lenguaje de programación de Java y el uso de la libreria Volley para hacer uso de micro servicios en php y almacenar informacion en base de datos de MySQL
