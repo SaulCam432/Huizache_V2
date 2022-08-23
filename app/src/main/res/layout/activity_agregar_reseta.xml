@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:adjustViewBounds="true"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    android:background="@drawable/fondo_2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Recetas.AgregarReseta">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#a8000000"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="left"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/btnAtrasAR"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/ic_back" />
+
+
+            </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/btnAgregarImagenResetas"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/anadir"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="2dp"
+                tools:ignore="MissingClass" />
+
+            <EditText
+                android:id="@+id/txtAgregarNombreReseta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/input_registro"
+                android:hint="Nombre"
+                android:inputType="textPersonName|textCapWords"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="#ccc" />
+
+
+            <EditText
+                android:id="@+id/txtAgregarIngredientesReseta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/input_registro"
+                android:gravity="start"
+                android:hint="Ingredientes"
+                android:inputType="textCapSentences|textMultiLine"
+                android:minHeight="90dp"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="#ccc" />
+
+            <EditText
+                android:id="@+id/txtAgregarDescripcionReseta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/input_registro"
+                android:gravity="start"
+                android:hint="Descripción"
+                android:inputType="textCapSentences|textMultiLine"
+                android:minHeight="90dp"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="#ccc" />
+
+            <Button
+                android:id="@+id/btnSensor"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/voz"
+                android:onClick="onClickbtnSensor" />
+
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnAGuardarReseta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/colorAccent"
+            android:src="@drawable/ic_add" />
+    </RelativeLayout>
+</ScrollView>

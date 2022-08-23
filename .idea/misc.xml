@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.123" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/drawable/btn_color_iniciosesion.xml" value="0.123" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/drawable/btn_color_registrar.xml" value="0.123" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/drawable/btn_redondeo_white.xml" value="0.123" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/drawable/circulo_imagen.xml" value="0.123" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/drawable/ic_back.xml" value="0.21" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/drawable/ic_delete.xml" value="0.123" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/drawable/ic_guardar.xml" value="0.21" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/drawable/ic_launcher_background.xml" value="0.123" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/drawable/input.xml" value="0.123" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/drawable/redondeo_image.xml" value="0.1865" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/layout/activity_agregar_bebidas.xml" value="0.25" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/layout/activity_agregar_reseta.xml" value="0.18" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/layout/activity_editar_bebida.xml" value="0.25" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/layout/activity_editar_receta.xml" value="0.16" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/layout/activity_informacion_resetas.xml" value="0.22" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/layout/activity_menu.xml" value="0.22" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/layout/activity_menu_bebidas.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/layout/activity_menu_resetas.xml" value="0.25" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/layout/activity_primer_vista.xml" value="0.22" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/layout/activity_registro_usuario.xml" value="0.25" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/layout/activity_temperatura.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/layout/contenedores_bebidas.xml" value="0.2276657060518732" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/layout/contenedores_resetas.xml" value="0.25" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/menu/busqueda.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/SaulCam9717/AndroidStudioProjects/Huizache/app/src/main/res/menu/menuopcionesreceta.xml" value="0.22083333333333333" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.117" />
+        <entry key="app/src/main/res/drawable/btn_color_iniciosesion.xml" value="0.117" />
+        <entry key="app/src/main/res/drawable/btn_color_registrar.xml" value="0.117" />
+        <entry key="app/src/main/res/drawable/btn_redondeo_white.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/circulo_imagen.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1785" />
+        <entry key="app/src/main/res/drawable/input.xml" value="0.117" />
+        <entry key="app/src/main/res/drawable/input_registro.xml" value="0.117" />
+        <entry key="app/src/main/res/layout/activity_agregar_bebidas.xml" value="0.22661870503597123" />
+        <entry key="app/src/main/res/layout/activity_agregar_reseta.xml" value="0.3113021850585937" />
+        <entry key="app/src/main/res/layout/activity_crear_cuenta.xml" value="0.14130434782608695" />
+        <entry key="app/src/main/res/layout/activity_cropper.xml" value="0.161231884057971" />
+        <entry key="app/src/main/res/layout/activity_informacion_bebidas.xml" value="0.24375" />
+        <entry key="app/src/main/res/layout/activity_informacion_resetas.xml" value="0.3691275167785235" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1792038406150928" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.23325317382812505" />
+        <entry key="app/src/main/res/layout/activity_menu_bebidas.xml" value="0.16354166666666667" />
+        <entry key="app/src/main/res/layout/activity_menu_resetas.xml" value="0.1923492431640625" />
+        <entry key="app/src/main/res/layout/activity_primer_vista.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_registro.xml" value="0.2336065573770492" />
+        <entry key="app/src/main/res/layout/activity_registro_usuario.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_segunda_vista.xml" value="0.14130434782608695" />
+        <entry key="app/src/main/res/layout/contenedores_bebidas.xml" value="0.42328685914381803" />
+        <entry key="app/src/main/res/layout/contenedores_resetas.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/busqueda.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.117" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.117" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

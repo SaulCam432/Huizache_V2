@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recetas.InformacionResetas">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal"
+                >
+
+
+                <ImageButton
+                    android:id="@+id/btnAtrasIR"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/ic_back" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorAccent"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/btnBorrar"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/delete" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/lblInformacionImagenReseta"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/anadir"
+            app:civ_border_color="@color/white"
+            app:civ_border_overlay="true"
+            app:civ_border_width="1dp" />
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="2">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Nombre:"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+
+
+            </TableRow>
+
+            <TextView
+                android:id="@+id/lblInformacionNombreReseta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Nombre de la reseta"
+                android:textColor="@color/black" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Ingedientes: "
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblInformacionIngredientesReseta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="3"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:padding="10dp"
+                    android:text="Ingredientes de la reseta"
+                    android:textColor="@color/black"
+                    tools:ignore="RtlCompat" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Descripción: "
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblInformacionDescripcionReseta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="3"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:padding="10dp"
+                    android:text="Descripción de la reseta"
+                    android:textColor="@color/black"
+                    tools:ignore="RtlCompat" />
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
